@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="color_background">
+        <div class="wrapper flex nav">
+            <h1>
+                <i class="bi bi-stars color_span"></i>Portfo<span class="color_span">lio</span>
+            </h1>
+            <div class="nav_links">
+                <ul class="flex">
+                    <li><a class="color_text" href="index.html">Accueil</a></li>
+                    <li><a class="color_text" href="#competence">Compétences</a></li>
+                    <li><a class="color_text" href="#SAE">SAE</a></li>
+                    <li><a class="color_text" href="#projet_perso">Projet personnel</a></li>
+                    <!-- <li>email<i class="bi bi-arrow-up-right"></i></li> -->
+                    <li id="dark-light-mode" onclick="changeDarkMode()">Dark mode</li>
+                </ul>
+            </div>
+            <img class="menu-hamburger" src="./image/menu-btn.png" alt="bouton de menu">
+        </div>
+    </nav>
+    <header class="wrapper">
+        <div class="header_gauche">
+            <small><i class="bi bi-geo-alt"></i> Bas Rhin, France</small>
+            <h1></h1>
+            <h1>Je suis Inacio Rodrigues</h1>
+            <p>Actuellement je suis détenteur du baccalauréat STI2D, Sciences
+                et
+                Technologies de l'Industrie et du Développement Durable et j'étudie à l'IUT de
+                Haguenau
+                dans la filière MMI, Métiers du Multimédia et de l'Internet, en vue d'obtenir mon diplôme BAC +3.
+            </p>
+            <div class="liens">
+                <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BTh3Cs3hdTMeFculfJlzfew%3D%3D">Linkedin<i class="bi bi-arrow-up-right"></i></a>
+                <!--<a href="#">email<i class="bi bi-arrow-up-right"></i></a>-->
+                <a href="./image/CV_pourlinkedin.pdf">Curriculum<i class="bi bi-arrow-up-right"></i></a>
+            </div>
+        </div>
+        <div class="header_droite">
+            <img src="./image/moi.jfif" alt="photo de Inacio Rodrigues">
+        </div>
+    </header>
+    <main class="wrapper">
+
+        <section class="scolaire">
+            <div class="titre">
+                <h2>Mon parcours scolaire</h2>
+            </div>
+            <div class="timeline">
+                <div class="container left">
+                    <div class="date">2015/2019</div>
+                    <i class="icon bi bi-house color_background"></i>
+                    <div class="content color-fond">
+                        <h2>Collège Nicolas Copernic</h2>
+                        <p>
+
+                            Suite à mes 4 années de scolarité dans cet établissement, j'ai obtenu mon brevet des
+                            collèges avec une mention assez bien.
+                        </p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="date">2019/2020</div>
+                    <i class="icon bi bi-house color_background"></i>
+                    <div class="content color-fond">
+                        <h2>Lycée Charles-Emile Freppel</h2>
+                        <p>
+                            Etant mon lycée de secteur, j'ai du réaliser ma seconde dans cet établissement en voie
+                            générale.
+                        </p>
+                    </div>
+                </div>
+                <div class="container left">
+                    <div class="date">2020/2022</div>
+                    <i class="icon bi bi-house color_background"></i>
+                    <div class="content color-fond">
+                        <h2>Lycée polyvalent Louis Marshal</h2>
+                        <p>
+                            J'ai fait ma Première et ma Terminale dans cet établissement au sein de la filière
+                            technologique en STI2D où j'ai obtenu mon baccalauréat technologique.
+                        </p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="date">2022/2025</div>
+                    <i class="icon bi bi-house color_background"></i>
+                    <div class="content color-fond">
+                        <h2>Institut Universitaire de technologie</h2>
+                        <p>
+                            Je suis actuellement dans cette université pour suivre le cursus MMI
+                            et je compte continuer dans cette voie pendant les deux années suivantes avec une
+                            possibilité d'alternance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="competences" id="competence">
+            <div class="titre">
+                <h2>Mes compétences</h2>
+            </div>
+            <div class="competence_total">
+                <div class="liste_competence">
+                    <h3>Compétences pour le web</h3>
+
+                    <h5>HTML</h5>
+                    <div class="taille-barre">
+                        <div class="barre html">70%</div>
+                    </div>
+
+                    <h5>CSS</h5>
+                    <div class="taille-barre">
+                        <div class="barre css">40%</div>
+                    </div>
+
+                    <h5>Twig</h5>
+                    <div class="taille-barre">
+                        <div class="barre twig">20%</div>
+                    </div>
+
+                    <h5>PHP</h5>
+                    <div class="taille-barre">
+                        <div class="barre php">20%</div>
+                    </div>
+
+                    <h5>SQL</h5>
+                    <div class="taille-barre">
+                        <div class="barre sql">30%</div>
+                    </div>
+
+                    <h5>Javascript</h5>
+                    <div class="taille-barre">
+                        <div class="barre js">10%</div>
+                    </div>
+
+                </div>
+                <div class="liste_competence">
+                    <h3>Compétences pour le graphisme</h3>
+
+                    <h5>Photoshop</h5>
+                    <div class="taille-barre">
+                        <div class="barre ps">70%</div>
+                    </div>
+
+                    <h5>Ilustrator</h5>
+                    <div class="taille-barre">
+                        <div class="barre il">60%</div>
+                    </div>
+
+                    <h5>Première pro</h5>
+                    <div class="taille-barre">
+                        <div class="barre pp">50%</div>
+                    </div>
+
+                    <h5>figma</h5>
+                    <div class="taille-barre">
+                        <div class="barre fig">90%</div>
+                    </div>
+
+                    <h5>Miro</h5>
+                    <div class="taille-barre">
+                        <div class="barre miro">80%</div>
+                    </div>
+
+                </div>
+                <div class="liste_competence">
+                    <h3>Compétences pour le loisir</h3>
+
+                    <h5>Impression 3D</h5>
+                    <div class="taille-barre">
+                        <div class="barre imp">85%</div>
+                    </div>
+                    <h5>Modélisation 3D</h5>
+                    <div class="taille-barre">
+                        <div class="barre mod">60%</div>
+                    </div>
+                    <h5>Origami</h5>
+                    <div class="taille-barre">
+                        <div class="barre origami">70%</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="sae">
+            <div class="global" id="SAE">
+                <div class="titre">
+                    <h2>Situation d'apprentissage et d'évaluation</h2>
+                </div>
+                <div class="box">
+                    <div class="contenu">
+                        <img src="./image/capture_pagu'com_et_funPark.png" alt="">
+                        <h5>SAE 102-106</h5>
+                        <div class="resumer">
+                            <p>
+                                Réalisation en groupe d'un plan de communication pour une entreprise.
+                            </p>
+                            <p>
+                                <a class="bouton color_lien" href="#">A venir</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contenu">
+                        <div class="image_vs">
+                            <img src="./image/logo_iut_habguenau.png" alt="">
+                            <!--<img src="../image/logo_mjm.png" alt="">--> 
+                        </div>
+                        <h5>SAE 101</h5>
+                        <div class="resumer">
+                            <p>
+                                Travail en groupes sur le choix d'un site afin d'étudier sa communication et son ergonomie.
+                            </p>
+                            <p>
+                                <a class="bouton color_lien" href="#">A venir</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contenu">
+                        <i class="bi bi-boombox"></i>
+                        <h5>SAE 103</h5>
+                        <div class="resumer">
+                            <p>
+                                Création d'un flyer pour un
+                                festival
+                                en
+                                suivant un cahier des charges.
+                            </p>
+                            <p>
+                                <a class="bouton color_lien" href="#">A venir</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contenu">
+                        <i class="bi bi-camera-reels"></i>
+                        <h5>SAE 104</h5>
+                        <div class="resumer">
+                            <p>
+                                Réalisation en groupe d'un tutos sushis avec du matériel personnel (téléhpone et micro).
+                            </p>
+                            <p>
+                                <a class="bouton color_lien" href="#">A venir</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contenu">
+                        <i class="bi bi-pc-display"></i>
+                        <h5>SAE 105</h5>
+                        <div class="resumer">
+                            <p>
+                                 Création d'un site web avec le générateur de templates TWIG sur une thèmatique choisie personnellement.
+                            </p>
+                            <p>
+                                <a class="bouton color_lien" href="SAE_105.html">Lire la suite >></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contenu">
+                        <i class="bi bi-linkedin"></i>
+                        <h5>SAE 204</h5>
+                        <div class="resumer">
+                            <p>
+                                Création de mon compte linkedin afin d'être visible sur internet par mes futurs employeurs.
+                            </p>
+                            <p>
+                                <a class="bouton color_lien" href="#">A venir</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projet_perso" class="projet_perso flex">
+            <div class="titre">
+                <h2>Mes projets personnels / scolaires</h2>
+            </div>
+            <div class="image-card flex">
+                <div class="image_gauche">
+                    <img src="./image/modelisation_3D.jpg" alt="">
+                </div>
+                <div class="text_droite">
+                    <h5>Modélisation 3D et Impression 3D</h5>
+                    <p>J'ai fait l'apprentissage de la modélisation 3D en Terminal. On devait créer une coque de
+                        dragster miniature pour un projet. 
+                        Par la suite j'ai reçu une imprimante 3D ce qui m'a permis d'imprimer des pièces utiles pour mon quotidien.
+                    </p>
+                    <a class="color_lien" href="#">A venir</a>
+                </div>
+            </div>
+            <div class="image-card flex">
+                <div class="image_gauche">
+                    <img src="./image/site_minecraft_accueil_francais.png" alt="">
+                </div>
+                <div class="text_droite flex">
+                    <h5>Site Web Minecraft</h5>
+                    <p>Ce site web a été conçu lors d'une SAE afin d'acquérir des compétences en développement web dans
+                        la sécurité d'un site internet.</p>
+                    <a class="color_lien" href="#">A venir</a>
+                    <a class="color_lien" href="https://rodrigues.etu.mmi-unistra.fr/accueil.php">Accés au site</a>
+                </div>
+            </div>
+            <div class="image-card flex">
+                <div class="image_gauche">
+                    <img src="./image/trelo_moi.png" alt="">
+                </div>
+                <div class="text_droite flex">
+                    <h5>Maquette d'un site internet</h5>
+                    <p>Ceci est une maquette reproduite personnellement lors des cours d'intégration web.</p>
+                    <a class="color_lien" href="#">A venir</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="wrapper">
+        <h3><i class="bi bi-stars"></i>Inacio Rodrigues</h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
